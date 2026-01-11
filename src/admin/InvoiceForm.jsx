@@ -1,3 +1,4 @@
+
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { GroupedInput } from "../Components/Input";
 import { createdDate } from "../helper/commonHelperFunc";
@@ -297,8 +298,12 @@ const InvoiceForm = () => {
       const sgst = Number(updatedSection.sgst || 0);
 
       // 🔒 Default existing values (do NOT recalc unless discount changes)
-      let totalValue = prevState[section]?.totalValue || gstAmount;
-      let taxableValue = prevState[section]?.taxableValue +cgst +sgst|| totalValue;
+ let totalValue = prevState[section]?.totalValue ?? null;
+
+
+      let taxableValue =
+  prevState[section]?.taxableValue ??
+  toTwoDecimal(gstAmount + cgst + sgst);
       let totalAssessableValue =
         prevState[section]?.totalAssessableValue || totalValue;
 
