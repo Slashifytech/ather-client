@@ -140,8 +140,8 @@ const RGPform = () => {
     {
       name: "agreementStartMilage",
       type: "text",
-      placeholder: "Agreement Start Milage",
-      label: "Agreement Start Milage",
+      placeholder: "Agreement Start Odometer ",
+      label: "Agreement Start Odometer ",
       required: true,
     },
     {
@@ -211,8 +211,8 @@ const RGPform = () => {
     {
       name: "agreementValidMilage",
       type: "text",
-      placeholder: "Agreement Valid Milage",
-      label: "Agreement Valid Milage",
+      placeholder: "Agreement Valid Odometer ",
+      label: "Agreement Valid Odometer ",
       required: true,
     },
     {
