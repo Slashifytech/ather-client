@@ -5,9 +5,8 @@ export const invoiceOption = [
 ];
 
 export const fuelType = [
-  { id: 0, value: "Petrol", label: "Petrol" },
-  { id: 1, value: "Diesel", label: "Diesel" },
-  { id: 2, value: "Electric Vehicle", label: "Electric Vehicle" },
+  
+  { id: 1, value: "Electric Vehicle", label: "Electric Vehicle" },
 ];
 export const modelOption = [
   { id: 0, value: "450", label: "450" },
