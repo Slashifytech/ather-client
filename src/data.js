@@ -24,6 +24,9 @@ export const locationOption = [
 
   { id: 8, value: "Porur", label: "Porur" },
   { id: 9, value: "Nungambakkam", label: "Nungambakkam" },
+  
+  { id: 10 value: "Malakpet", label: "Malakpet" },
+  { id: 11, value: "Somajiguda", label: "Somajiguda"}
 ];
 
 export const yearOption = [
