@@ -151,7 +151,7 @@ const ApprovalCard = ({ item, index }) => {
           {item?.isCancelReq === "reqCancel"
             ? "Sent a request to cancel the rgp of"
             : " Sent a request to approve the rgp of"}{" "}
-          {item?.customerDetails?.customerName}
+          {item?.customerDetails?.customerName} ",RGP type:"  {item?.customerDetails?.rgpType}
           <Link
              to={`/rgp-view/${item?._id}`}
              target="_blank"
