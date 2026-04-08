@@ -229,7 +229,7 @@ const AdminRGPList = () => {
            <select
         value={selectedRgpType}
         onChange={handleRgpTypeChange}
-        className="px-6 bg-primary flex flex-row items-center cursor-pointer gap-3 text-white rounded-md  text-[16px] "
+        className="px-6 bg-white flex flex-row items-center cursor-pointer gap-3 text-black rounded-md border border-gray-300 text-[16px] "
       >
         <option value="">All RGP Types</option>
         {rgpType.map((item) => (
