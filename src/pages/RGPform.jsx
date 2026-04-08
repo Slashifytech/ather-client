@@ -158,7 +158,7 @@ const RGPform = () => {
       type: "number",
       placeholder: "Downpayment",
       label: "Downpayment",
-      required: true,
+      required: false,
     },
     {
       name: "total",
@@ -232,12 +232,12 @@ const RGPform = () => {
       label: "Location of the Dealer",
       required: true,
     },
-{
+ {
       name: "restPayment",
       type: "number",
       placeholder: "Rest Payment",
       label: "Rest Payment",
-      required: true,
+      required: false,
     },
     {
       name: "rmEmployeeId",
