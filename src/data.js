@@ -20,13 +20,7 @@ export const locationOption = [
   { id: 4, value: "Kompally", label: "Kompally" },
   { id: 5, value: "Amberpet", label: "Amberpet" },
   { id: 6, value: "Vanasthalipuram", label: "Vanasthalipuram" },
-  { id: 7, value: "Tolichowki", label: "Tolichowki" },
 
-  { id: 8, value: "Porur", label: "Porur" },
-  { id: 9, value: "Nungambakkam", label: "Nungambakkam" },
-  
-  { id: 10, value: "Malakpet", label: "Malakpet" },
-  { id: 11, value: "Somajiguda", label: "Somajiguda"}
 ];
 
 export const yearOption = [
